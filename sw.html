@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript dev</title>
+<script type="text/javascript" src="js/test.js"></script>
+<script type="text/javascript" src="js/vform.js"></script>
+<link type="text/css" rel="stylesheet" href="js/form.css" />
+</head>
+<body>
+	<button id="my_btn" name="my_btn">push me</button>
+	<form action="">
+		sex:  <input type="radio" name="sex" id="sex" value="male "> male
+			<input type="radio" name="sex" id="sex" value="female">female <br>
+			<input type="button" id="showBut" value="select">
+			<!-- 名称相同，需要用数组取得所有元素 -->
+	</form >
+	<form action="pass.html" method="post" id="loginForm">
+	email  :<input type="text" name="email" id="email"><br>
+	passwd:<input type="text" name="passwd" id="passwd"> 
+	<br>
+	<button type="submit" id="subBut" name="subBut">login</button>
+	</form >
+	<form action="pass.html" method="post" id="login_form">
+		user &nbsp&nbsp:<input type="text" name="uid" id="uid" class="init"><span id="uidSpan"><br></span></input>
+		password  :<input type="text" name="password" id="password" class="init"><span id="passwordSpan"><br></span></input>
+		<button type="submit " id="subBtn">登录</button>
+		<button type="reset" id="resetBtn">重置</button>
+	</form>
+</body>
+</html>
